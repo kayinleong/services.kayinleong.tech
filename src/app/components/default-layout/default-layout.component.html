@@ -1,0 +1,139 @@
+<!-- Navbar -->
+<nav class="bg-white border-gray-200 dark:border-gray-600 dark:bg-gray-900">
+  <div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between px-4 py-2.5 md:px-6">
+    <a href="https://kayinleong.tech" class="flex items-center">
+      <img src="assets/images/Kayin_White_Small.webp" class="h-6 mr-3 sm:h-9" alt="Kayin Logo" fetchprority="veryhigh" loading="eager" />
+      <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"></span>
+    </a>
+    <button data-collapse-toggle="mega-menu-full" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden" aria-controls="mega-menu-full" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+      </svg>
+    </button>
+    <div id="mega-menu-full" class="items-center justify-between hidden w-full md:order-1 md:flex md:w-auto">
+      <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 dark:border-gray-700 dark:bg-gray-800 md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:text-sm md:font-medium md:dark:bg-gray-900">
+        <li>
+          <a href="https://kayinleong.tech" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500" aria-current="page">Home</a>
+        </li>
+        <li>
+          <button id="mega-menu-full-dropdown-button" data-collapse-toggle="mega-menu-full-dropdown" class="flex items-center justify-between w-full py-2 pl-3 pr-4 font-medium text-gray-700 rounded hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:w-auto md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-600 md:dark:hover:bg-transparent md:dark:hover:text-blue-500">
+            About
+            <svg class="w-5 h-5 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </li>
+        <li>
+          <a routerLink="/" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500">Services</a>
+        </li>
+        <li>
+          <a href="mailto:job@mail.kayinleong.tech" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:p-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-blue-500">Contact Me</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="mega-menu-full-dropdown" class="hidden mt-1 border-gray-200 shadow-sm border-y bg-gray-50 dark:border-gray-600 dark:bg-gray-800 md:bg-white">
+    <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
+      <ul>
+        <li>
+          <a href="https://kayinleong.tech/#about" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+            <div class="font-semibold">About Myself</div>
+            <span class="text-sm font-light text-gray-500 dark:text-gray-400">
+              A little bit about myself!
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://kayinleong.tech/#experiences" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+            <div class="font-semibold">Experiences</div>
+            <span class="text-sm font-light text-gray-500 dark:text-gray-400">
+              🥸
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://kayinleong.tech/showcases" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+            <div class="font-semibold">Showcases</div>
+            <span class="text-sm font-light text-gray-500 dark:text-gray-400">
+              Next multimillion dolar apps 🍵.
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://kayinleong.tech/#technical_skills" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+            <div class="font-semibold">Technical Skills</div>
+            <span class="text-sm font-light text-gray-500 dark:text-gray-400">
+              Red pill or blue pill?
+            </span>
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="https://kayinleong.tech/#educations" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+            <div class="font-semibold">Educations</div>
+            <span class="text-sm font-light text-gray-500 dark:text-gray-400">
+              (╯‵□′)╯︵┻━┻
+            </span>
+          </a>
+        </li>
+        <li>
+          <a href="https://kayinleong.tech/#languages" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
+            <div class="font-semibold">Languages</div>
+            <span class="text-sm font-light text-gray-500 dark:text-gray-400">
+              Selamat, 世界！
+            </span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container p-10 mx-auto my-20 sm:p-0">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- Footer -->
+<footer class="container p-4 mx-auto bg-white dark:bg-gray-900 sm:p-6 lg:px-40">
+  <div class="md:flex md:justify-between">
+    <div class="mb-6 md:mb-0">
+      <a routerLink="/" class="flex items-center">
+        <img src="assets/images/Kayin_White_Small.webp" class="h-8 mr-3" fetchprority="verylow" loading="lazy" alt="Kayin Logo" />
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+      </a>
+    </div>
+    <div class="grid grid-cols-1 gap-8 sm:gap-6">
+      <div id="contacts">
+        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+          Contact me
+        </h2>
+        <ul class="text-gray-600 dark:text-gray-400">
+          <li class="mb-4">
+            <a href="mailto:job@mail.kayinleong.tech" class="hover:underline">Email</a>
+          </li>
+          <li class="mb-4">
+            <a href="https://www.linkedin.com/in/kayinleong/" target="_blank" rel="noopener noreferrer" class="hover:underline">LinkedIn</a>
+          </li>
+          <li class="mb-4">
+            <a href="https://github.com/kayinleong/" target="_blank" rel="noopener noreferrer" class="hover:underline">GitHub</a>
+          </li>
+          <li class="mb-4">
+            <a href="https://twitter.com/kayinleong/" target="_blank" rel="noopener noreferrer" class="hover:underline">Twitter</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kayinleong/" target="_blank" rel="noopener noreferrer" class="hover:underline">Instagram</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr class="my-6 border-gray-200 dark:border-gray-700 sm:mx-auto lg:my-8" />
+  <div class="sm:flex sm:items-center sm:justify-between">
+    <span class="text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+      © 2023 Kayin Leong. All Rights Reserved. Taken by The Giraffe 🦒.
+    </span>
+  </div>
+</footer>
